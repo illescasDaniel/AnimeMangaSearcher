@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: system-ui, Arial, Verdana, serif;
+	color: black;
+}
+
+.HTMLheight {
+	height: 90%;
+}
+
+.centeredBody {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.centeredItems {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+.itemsAtLeft {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+
+.inputsStyle {
+	height: 1.75em;
+	width: 20em;
+	margin: 0.2em;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+}
+
+.searchInputStyle {
+	height: 2em;
+	width: 30em;
+	margin: 0.2em;
+	font-size: 1em;
+}
+
+@media all and (max-width: 500px){
+    .searchInputStyle {
+        width: 80%;
+    }
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+.buttonStyle {
+	height: 2em;
+}
+
+.searchStyle {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 3em;
+}
+
+@media all and (max-width: 500px){
+    .searchStyle {
+        justify-content: center;
+    }
+}
+
+.indexTitle {
+	font-size: 3em;
+}
+
+@media all and (max-width: 500px){
+    .indexTitle {
+        font-size: 2em;
+    }
+}
+
+.bold {
+	font-weight: bold;
+}
+
+div.gallery {
+	margin: 5px;
+	width: 180px;
+}
+
+div.gallery:hover {
+	opacity: 0.8;
+}
+
+div.gallery input {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+	text-size: smaller;
+}
+
+.resultBody {
+	margin: 2em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+@media all and (max-width: 500px){
+    .resultBody {
+        margin: 2em;
+    }
+}
+
+.resultImageStyle {
+	margin: 2em;
+}
+
+.infoParagraphInLogin {
+	color: darkgray;
+	font-size: 0.9em;
+	margin-top: 2em;
+}
+
+.errorMessageInLogin {
+	color: brown;
+	font-size: 1em;
+	margin-top: 1em;
+}
