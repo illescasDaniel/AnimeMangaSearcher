@@ -1,7 +1,7 @@
 # Anime-Manga Searcher
 
 [![Language](https://img.shields.io/badge/Kotlin-1.1-green.svg)](http://kotlinlang.org/)
-[![Version](https://img.shields.io/badge/version-v1.0-green.svg)](https://github.com/illescasDaniel/AnimeMangaSearcher/releases)
+[![Version](https://img.shields.io/badge/version-v1.1-green.svg)](https://github.com/illescasDaniel/AnimeMangaSearcher/releases)
 
 Small web application that uses public APIs (from MyAnimeList and MangaEDEN) and web scraping to search animes and mangas including links to a streaming website or to read the manga online.  
 

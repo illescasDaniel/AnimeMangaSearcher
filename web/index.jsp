@@ -12,7 +12,7 @@
 	<meta charset="UTF-8">
 	<title>Anime-Manga Searcher</title>
 	<link rel="stylesheet" href="commonStyles.css">
-	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon-precomposed" href="WEB-INF/apple-touch-icon.png">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +39,7 @@
 	<input class="buttonStyle" id="submitButton" type="submit" value="Enter">
 </form>
 
-<p class="infoParagraphInLogin">Use your credentials from MyAnimeList</p>
+<p class="infoParagraphInLogin">Use your credentials from <a href="https://myanimelist.net" class="infoParagraphInLogin">MyAnimeList</a></p>
 <p class="errorMessageInLogin">${errorMessage}</p>
 </body>
 </html>

@@ -15,11 +15,11 @@
             <a href="../index.jsp?logout">Log out</a>
         </section>
 		<section class="fullWidth centeredBody">
-			<h1>Search:</h1>
+			<h1 id="searchTitle">Search:</h1>
 			<form class="centeredBody fullWidth" action="search" method="get">
 				<input class="searchInputStyle" name="title" type="text" placeholder="Anime/Manga title">
 			</form>
+			<div class="searchStyle">${mangas}</div>
 		</section>
-		<div class="searchStyle">${mangas}</div>
 	</body>
 </html>

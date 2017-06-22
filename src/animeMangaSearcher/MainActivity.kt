@@ -182,7 +182,7 @@ class MainActivity: HttpServlet() {
 
 	private fun outputFullResultFrom(bestResult: MyAnimeListResult, externalLink: String, typeStr: String): String {
 
-		val title = """<h2 style="font-weight: bold">${bestResult.title}</h2>"""
+		val title = """<h2 class="bold">${bestResult.title}</h2>"""
 		val imageURL = """<img class="resultImageStyle" src="${bestResult.imageURL}">"""
 
 		val titleAndImage = """<div class="centeredBody">$title$imageURL</div>"""
