@@ -5,7 +5,7 @@
 
 Small web application that uses public APIs (from MyAnimeList and MangaEDEN) and web scraping to search animes and mangas including links to a streaming website or to read the manga online.  
 
-The project was made using **IntelliJ IDEA** using **Tomcat** server, **Kotlin** and some other third party Java libraries.  
+The project was made with **IntelliJ IDEA** using **Tomcat** server, **Kotlin** and some other third party Java libraries.  
 
 APIs:
 -----
