@@ -126,12 +126,18 @@ div.desc {
 	margin-top: 2em;
 }
 
-.infoParagraphInLogin > a {
+.otherInfoParagraph {
+	color: darkgray;
+	font-size: smaller;
+	margin: 0;
+}
+
+.infoParagraphInLogin > a, .otherInfoParagraph > a {
 	text-decoration: none;
 	font-weight: normal;
 }
 
-.infoParagraphInLogin > a:hover {
+.infoParagraphInLogin > a:hover, .otherInfoParagraph > a:hover {
 	text-decoration: none;
 	font-weight: bold;
 }

@@ -39,6 +39,7 @@
 	</form>
 
 	<p class="infoParagraphInLogin">Use your credentials from <a href="https://myanimelist.net" class="infoParagraphInLogin">MyAnimeList</a></p>
+	<p class="otherInfoParagraph">More manga info at <a href="http://www.mangaeden.com/" class="infoParagraphInLogin">MangaEDEN</a></p>
 	<p class="errorMessageInLogin">${errorMessage}</p>
 	</body>
 </html>
