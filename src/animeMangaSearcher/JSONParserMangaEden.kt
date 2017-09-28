@@ -56,11 +56,11 @@ internal object JSONParserMangaEden {
 
 		val url: String
 
-		if (index > -1) {
-			url = idOutput.substring(index + urlStringPrefix.length, idOutput.length - 4)
+		url = if (index > -1) {
+			idOutput.substring(index + urlStringPrefix.length, idOutput.length - 4)
 		} else {
 			val encodedTitle = manga.title.percentEncoded.toLowerCase().replace("+", "-")
-			url = "http://www.mangaeden.com/en-manga/$encodedTitle"
+			"http://www.mangaeden.com/en-manga/$encodedTitle"
 		}
 
 		return url

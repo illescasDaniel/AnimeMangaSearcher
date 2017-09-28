@@ -1,6 +1,6 @@
 # Anime-Manga Searcher
 
-[![Language](https://img.shields.io/badge/Kotlin-1.1-green.svg)](http://kotlinlang.org/)
+[![Language](https://img.shields.io/badge/Kotlin-1.X-green.svg)](http://kotlinlang.org/)
 [![Version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://github.com/illescasDaniel/AnimeMangaSearcher/releases)
 [![License](https://img.shields.io/badge/license-APGL--3-blue.svg)](https://github.com/illescasDaniel/AnimeMangaSearcher/blob/master/LICENSE)
 

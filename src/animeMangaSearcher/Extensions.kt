@@ -4,10 +4,11 @@ import java.net.URLDecoder
 import java.net.URLEncoder
 
 inline fun <T> catchAndLog(runnable: () -> T): T? {
-	try { return runnable() }
-	catch (e: Exception) {
+	return try {
+		runnable()
+	} catch (e: Exception) {
 		e.printStackTrace()
-		return null
+		null
 	}
 }
 
