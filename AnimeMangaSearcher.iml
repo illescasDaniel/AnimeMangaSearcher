@@ -20,8 +20,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.15" level="application_server_libraries" />
     <orderEntry type="library" exported="" name="commons-lang3-3.5" level="project" />
     <orderEntry type="library" exported="" name="jackson" level="project" />
+    <orderEntry type="library" exported="" name="Tomcat servlet-api" level="project" />
   </component>
 </module>
